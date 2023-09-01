@@ -2,13 +2,9 @@ import PySimpleGUI as gui
 from docxtpl import DocxTemplate
 from pathlib import Path
 
-
 doc_path = Path(__file__).parent / 'template.docx'
 doc = DocxTemplate(doc_path)
-
-
 gui.theme('LightGray2')
-
 letter_vals = [
 
     [gui.Image('img.png', expand_x=True, expand_y=True, pad=(20,20))],
@@ -28,8 +24,6 @@ letter_vals = [
     [gui.Text('Current Position'), gui.Input(key='CURR_POS',do_not_clear = True)],
     [gui.Text('Years of Experience'), gui.Input(key='YEARS_EXP',do_not_clear = True)],
     [gui.Text('I have accomplished'), gui.Input(key='ACCOMP',do_not_clear = True)],
-
-
     [gui.Button('Create Letter'), gui.Exit()],
 ]
 
