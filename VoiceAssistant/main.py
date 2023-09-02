@@ -14,10 +14,8 @@ try:
         print(userInput)
 
 
-
         if 'hello' in userInput:
             print('it worked!')
-
 
 
 except:
