@@ -17,8 +17,6 @@ while run:
             pygame,quit()
             sys.exit
 
-    
-
     draw()
 
     clock.tick(60)
