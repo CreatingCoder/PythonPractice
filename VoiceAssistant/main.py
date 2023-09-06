@@ -13,10 +13,8 @@ try:
         userInput = listener.recognize_google(voice)
         print(userInput)
 
-
         if 'hello' in userInput:
             print('it worked!')
-
 
 except:
     pass
