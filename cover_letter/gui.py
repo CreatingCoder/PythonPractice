@@ -27,6 +27,7 @@ letter_vals = [
     [gui.Button('Create Letter'), gui.Exit()],
 ]
 
+
 window = gui.Window('Federal Job Cover Letter Generator', letter_vals, element_justification='right') #, background_color='#DAE0E6')
 
 while True:
