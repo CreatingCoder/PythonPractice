@@ -21,7 +21,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     
-    
     pygame.draw.rect(screen, 'green', rect=(30, 30, 30, 30))
 
 
