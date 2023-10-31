@@ -23,6 +23,5 @@ while running:
     
     pygame.draw.rect(screen, 'green', rect=(30, 30, 30, 30))
 
-
     #rect isn't shown without
     pygame.display.flip()
