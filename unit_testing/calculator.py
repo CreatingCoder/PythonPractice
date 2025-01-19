@@ -1,11 +1,27 @@
-class Calculator:
+class Calculator(object):
+
+    def __init__(self):
+        pass
 
     def add(self, a,b):
-        return print(f" {a} + {b} = {a+b}")
+        return print(f"{a} + {b} = {a+b}")
+    
+    def subtract(self,a,b):
+        return(print(f'{a} - {b} = {a-b}'))
+
+    def divide(self, a, b):
+        return(print(f'{a} / {b} = {a/b}'))
+    
+    def multiply(self, a, b):
+        return(print(f'{a} x {b} = {a*b}'))
+    
 
 
 
 
-instance_of_calc = Calculator()
 
-instance_of_calc.add(2,3)
+    
+
+    def string(self):
+        print('test me!')
+
