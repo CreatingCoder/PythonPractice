@@ -1,27 +1,14 @@
-class Calculator(object):
+def add(a, b):
+    return a + b
 
-    def __init__(self):
-        pass
+def subtract(a, b):
+    return a - b
 
-    def add(self, a,b):
-        return print(f"{a} + {b} = {a+b}")
-    
-    def subtract(self,a,b):
-        return(print(f'{a} - {b} = {a-b}'))
+def multiply(a, b):
+    return a * b
 
-    def divide(self, a, b):
-        return(print(f'{a} / {b} = {a/b}'))
-    
-    def multiply(self, a, b):
-        return(print(f'{a} x {b} = {a*b}'))
-    
-
-
-
-
-
-    
-
-    def string(self):
-        print('test me!')
-
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return('Undefined; cannot divide by zero')
